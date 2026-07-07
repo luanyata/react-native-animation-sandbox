@@ -1,8 +1,10 @@
 {
-  "name": "tutorial_animation",
+  "name": "react-native-animation-sandbox",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
+    "@animatereactnative/marquee": "^0.5.2",
+    "@animatereactnative/stagger": "^0.3.0",
     "@expo/ui": "~57.0.3",
     "expo": "~57.0.2",
     "expo-constants": "~57.0.3",
@@ -29,14 +31,14 @@
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "~57.0.0",
     "typescript": "~6.0.3"
   },
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
     "lint": "expo lint"
   },
   "private": true
