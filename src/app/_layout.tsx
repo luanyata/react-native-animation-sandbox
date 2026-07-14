@@ -10,7 +10,7 @@ export default function RootLayout() {
 
         {/* Group Folders */}
         <Stack.Screen name="(sea)" />
-        <Stack.Screen name="(apple)" />
+        <Stack.Screen name="(apple)/appleInvites" />
       </Stack>
     </GestureHandlerRootView>
   );
